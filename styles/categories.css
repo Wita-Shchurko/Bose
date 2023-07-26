@@ -1,0 +1,56 @@
+.category {
+	margin-top: 64px;
+}
+
+.category__photos {
+	display: flex;
+	gap: 24px;
+}
+
+.category__title {
+	margin-top: 16px;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 140%;
+	/* 33.6px */
+}
+
+.category__first {
+	margin-top: 0 !important;
+}
+
+.photo__square {
+	width: 324px;
+	height: 320px;
+}
+
+.photo__wide {
+	width: 672px;
+	height: 320px;
+}
+
+.headphones-earbuds-wide {
+	background: url("../images/categories/Headphones-earbuds-wide.png") center center/cover no-repeat;
+}
+
+.headphones-earbuds-square {
+	background: url("../images/categories/Headphones-earbuds-square.svg") center center/cover no-repeat;
+}
+
+.speakers-wide {
+	background: url("../images/categories/Speakers-wide.png") center center/cover no-repeat;
+}
+
+.speakers-square {
+	background: url("../images/categories/Speakers-square.png") center center/cover no-repeat;
+}
+
+.audio-sunglasses-square {
+	background: url("../images/categories/Audio-sunglasses-square.png") center center/cover no-repeat;
+}
+
+.audio-sunglasses-wide {
+	background: url("../images/categories/Audio-sunglasses-wide.png") center center/cover no-repeat;
+}

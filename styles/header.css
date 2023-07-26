@@ -1,0 +1,55 @@
+.header {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 120px;
+	background: url(../images/header-bg-l.png) center center/cover no-repeat;
+}
+
+.header__logo {
+	width: 190.08px;
+	height: 24px;
+	z-index: 5;
+}
+
+.header__logo img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.header__burger {
+	width: 24px;
+	height: 24px;
+	background: url(../icons/icon-burger-menu.png) center center/cover no-repeat;
+}
+
+.header__burger:hover {
+	background: url(../icons/Icon-Burger-menu-hover.png) center center/cover no-repeat;
+}
+
+.header__title {
+	font-size: 48px;
+	font-style: italic;
+	font-weight: 800;
+	line-height: 100%;
+	letter-spacing: -1.5px;
+	text-shadow: rgba(230, 238, 248, 1) 0px 0px 10px;
+}
+
+.header__top {
+	display: flex;
+	padding-top: 64px;
+	justify-content: space-between;
+}
+
+.header__bottom {
+	padding-bottom: 64px;
+}
+
+.header__wavesImg {
+	margin-bottom: 40px;
+	width: 64px;
+	height: 76px;
+}
